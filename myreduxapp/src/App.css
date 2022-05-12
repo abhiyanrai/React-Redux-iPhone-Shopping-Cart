@@ -1,4 +1,8 @@
 @import url('https://fonts.googleapis.com/css2?family=Nunito:wght@200;400;700&display=swap');
+ 
+
+a:link { text-decoration: none; color: black; }
+
 
 * {
   padding: 0;
@@ -17,13 +21,15 @@
   padding: 0 4rem;
 }
 
+
 .nav-bar a{
   text-decoration: none;
   color:whitesmoke;
 }
 
-.nav-bar h2 {
-  font-size: 40px;
+.nav-bar img {
+ 
+  height:50px;
 
 }
 .nav-bag{
@@ -63,3 +69,38 @@
 .not-found p {
   font-size: 22px;
 }
+
+
+
+/* Product Component */
+.grid {
+  display:grid;
+  grid-template-columns:repeat(4, 1fr);
+  margin: 20px;
+
+  
+}
+.main {
+  cursor:pointer;
+  margin-bottom: 20px;
+  border-radius:10px;
+  box-shadow: -5px -5px 10px rgba(255, 255, 255, 0.5), 2px 2px 5px rgba(94, 104, 121, 0.3);
+ 
+}
+
+
+.title-flex {
+  display: flex;
+  justify-content: space-between;
+  padding-top: 2rem;
+}
+
+.striked-price {
+  text-decoration: line-through;
+}
+
+
+ 
+
+
+
